@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-image: url(/images/media/denim-texture2.jpeg);
+    background-size: cover;
+}
+.container{
+    width: 70%;
+    height: 70%;
+    margin: 3% auto 5%;
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.location{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/media/denim-texture.webp);
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.msg{
+    width: 50%;;
+}
+.hi{
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-bottom: 14%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+form h2{
+    margin-bottom: 6%;
+}
+form input, textarea{
+    margin-right: 20%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    background-color: #F7F6FE;
+    border: none;
+    outline: none;
+}
+form input{
+    padding: 2%;   
+}
+form textarea{
+    resize: none;
+}
+form button{
+    background-color: #562AF0;
+    border-radius: 5px;
+    padding: 3% 4%;
+    border: none;
+    width: 30%;
+    margin: 3% 0 14%;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.2s;
+}
+form input:focus, textarea:focus{
+    border: 2px solid #562AF0;
+}
+form button:hover{
+    scale: 1.05;
+}
+form h2 img{
+    width: 0.9em;
+    height: 0.9em;
+}
+.hi h1{
+    font-size: 3rem;
+    margin-bottom: 15%;
+}
+.hi h2{
+    font-size: 2rem;
+}
+.link a{
+    color: #fff;
+    text-decoration: none;
+    border: 3px solid #fff;
+    padding: 0.6%;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.link{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.link a:hover{
+    padding: 1%;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    font-weight: 600;
+}
+.address div{
+    display: flex;
+    align-items: center;
+    padding: 0.5%;
+}
+.address img{
+    margin-right: 5%;
+}

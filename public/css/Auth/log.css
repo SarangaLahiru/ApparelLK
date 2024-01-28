@@ -1,0 +1,148 @@
+body {
+    background-color: aliceblue;
+}
+
+#container1 .box {
+    display: flex;
+    margin: 10px auto;
+    width: 850px;
+    height: 460px;
+    position: relative;
+    top: 120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px rgb(196, 196, 196) solid;
+    border-radius: 24px;
+    padding: 20px 15px;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+#container1 form {
+    position: relative;
+    left: 90px;
+}
+
+#container1 .box1 {
+    width: 200px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 450px;
+
+}
+
+#container1 .frm-g {
+    margin: 50px 15px;
+}
+
+#container1 form .frm-g input {
+    position: relative;
+    top: 30px;
+    left: -25px;
+    padding: 10px 15px;
+    border-radius: 24px;
+    border: none;
+    border: 1px rgb(150, 150, 150) solid;
+    width: 250px;
+}
+
+#container1 form .frm-g span {
+    position: absolute;
+    left: -10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#container1 form .frm-g p {
+    color: red;
+    position: absolute;
+    margin-top: 30px;
+    font-size: 13px;
+    margin-left: -5px;
+}
+
+#container1 form input[type="submit"] {
+    position: relative;
+    left: -5px;
+    padding: 10px 15px;
+    border-radius: 24px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    width: 280px;
+}
+
+#container1 form input[type="submit"]:hover {
+    background-color: black;
+}
+
+#container1 form h2 {
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 500px;
+    color: rgb(129, 129, 129);
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+#container1 form .frm-g a {
+    text-decoration: none;
+    border: 1px rgb(197, 197, 197) solid;
+    padding: 9px 62px;
+    border-radius: 24px;
+    color: rgb(8, 8, 8);
+    position: relative;
+    left: -30px;
+    font-size: 13px;
+    top: 30px;
+
+}
+
+#container1 form .frm-g a img {
+    width: 20px;
+    margin: 0px 5px;
+    position: relative;
+    top: 5px;
+}
+
+#container1 form .box2 {
+    position: relative;
+    top: -60px;
+}
+
+#container1 form h3 {
+    position: relative;
+    top: 50px;
+    font-size: 30px;
+}
+
+#container1 .box1 img {
+    position: absolute;
+    top: -50px;
+}
+
+#container1 .box1 h2 {
+    position: relative;
+    left: 40px;
+    top: -20px;
+    color: #fdfdfd;
+    font-size: 65px;
+}
+
+#container1 .load {
+    position: relative;
+    top: -65px;
+    left: 220px;
+
+}
+
+#container1 .load i {
+    color: #fff;
+    visibility: hidden;
+}
+
+#container1 .load .actload {
+    visibility: visible;
+}

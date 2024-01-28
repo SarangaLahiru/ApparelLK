@@ -1,0 +1,1673 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.load{
+    position: fixed;
+    z-index: 10000;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+    
+}
+.onload{
+    visibility: visible;
+
+}
+.load img{
+    width: 100px;
+    position: absolute;
+    left: 650px;
+    top: 250px;
+
+}
+
+.container1{
+    width: 210px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    overflow: hidden;
+    font-size: 15px;
+    border-right: 1px rgb(206, 206, 206) solid;
+    left: -100px;
+    opacity: 0;
+    animation: anim1 2s;
+    animation-fill-mode: forwards;
+    
+    
+}
+@keyframes anim1{
+    0%{
+        left: -100px;
+            opacity: 0;
+
+    }
+    100%{
+        left: 0px;
+            opacity: 1;
+
+    }
+}
+.container1 .lsact{
+    background-color: #2763FF;
+    color: #ffffff;
+    
+}
+.container1 .lsact a {
+    
+    color: #ffffff;
+}
+.c1act{
+    position: fixed;
+    z-index: 1000;
+}
+.c1act h2{
+    visibility: hidden;
+}
+.container1 li{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 15px;
+    border-radius: 18px;
+    padding: 0px 15px;
+    width: 165px;
+    height: 42px;
+    position: relative;
+    left: -20px;
+    
+    
+}
+.container1 .box li:hover{
+    background-color: #2763FF;
+}
+.container1 .box li:active {
+    background-color: #b7c5e9;
+}
+.container1 .box li:hover a{
+    color: #fff;
+}
+.container1 .box li:hover i {
+    color: #fff;
+}
+.container1 >h2{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    top: 20px;
+}
+.container1 a{
+    text-decoration: none;
+    position: relative;
+    left: -5px;
+    top:-2px;
+    padding: 5px 15px;
+    margin-top: -5px;
+    color: rgb(59, 59, 59);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container1 .box{
+    
+    position: relative;
+    top: 50px;
+    line-height: 3em;
+    left: 15px;
+    width: 180px;
+    border-bottom:1px rgb(168, 168, 168) solid ;
+}
+.container1 .box1 li{
+    width: 160px;
+    left: 2px;
+    width: 158px;
+    
+
+}
+.container1 .log i{
+    margin: 10px 15px;
+}
+.container1 .log a{
+    text-decoration: none;
+
+}
+.container1 .log{
+    position: relative;
+    top: 150px;
+    left: 20px;
+    font-size: 18px;
+    background-color: #f1efef;
+    padding: 5px 5px;
+    width: 150px;
+    border-radius: 24px;
+}
+.container1 .log:hover{
+    background-color: #2763FF;
+}
+.container1 .log:hover a{
+    color: #fff;
+}
+.container1 .box1{
+    position: relative;
+    top: 85px;
+    font-size: 14px;
+}
+.container1 .box1 h2{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    position: relative;
+    top: -10px;
+    color: rgb(141, 140, 140);
+}
+.container1 .box1 li i{
+    background-color: rgb(234, 236, 236);
+    padding: 8px 8px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+}
+.container1 .box1 a{
+    font-size: 12px;
+    color: rgb(49, 48, 48);
+    position: relative;
+    top: 5px;
+    
+    
+}
+.container2{
+    background-color: rgb(255, 255, 255);
+    width: 1134px;
+    position: relative;
+    left: 212px;
+    z-index: 1000;
+    top: -100px;
+    opacity: 0;
+    animation: anim2 1s;
+    animation-fill-mode: forwards;
+    
+    
+    
+}
+@keyframes anim2{
+    0%{
+        top: -100px;
+        opacity: 0;
+
+    }
+    100%{
+        top: 0px;
+        opacity: 1;
+
+    }
+}
+.container2 .cartls{
+    background-color:#fdfdfd;
+    width: 390px;
+    height: 540px;
+    position: fixed;
+    left: 1400px;
+    top: 80px;
+    z-index: 1000;
+    border-radius: 24px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 10px rgb(121, 120, 120);
+    transition: all 0.5s ease;
+    opacity: 0;
+    
+    
+
+}
+.container2 .actcartls{
+    left: 920px;
+    opacity: 1;
+
+}
+.container2 .cartls .cartcancle{
+    text-decoration: none;
+    color: black;
+    padding: 10px 12px;
+    background-color: #e4e4e4;
+    border-radius: 100px;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.container2 .cartls .cartcancle:hover{
+    background-color: #8b8a8a;
+    color: #ffffff;
+}
+.container2 .cartls .box1{
+    border: 1px rgb(207, 207, 207) solid;
+    height: 460px;
+    
+    position: relative;
+    top: 50px;
+    border-radius: 24px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.container2 .cartls h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+}
+.container2 .cartls h2 a{
+    text-decoration: none;
+    color: #2763FF;
+    font-size: 13px;
+    position: relative;
+    left: 220px;
+}
+.container2 .cartls table{
+    
+    width: 380px;
+    margin-top: -10px;
+}
+.container2 .cartls table td{
+    padding: 10px 15px;
+    border-bottom: 1px rgb(207, 207, 207) solid;
+    
+}
+.container2 .cartls table p{
+    color:#b9b9b9;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: -10px;
+}
+.container2 .cartls table h2{
+    position: relative;
+    left: -10px;
+    top:15px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2 .cartls table .size{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+    left: -10px;
+    color: #b9b9b9;
+}
+.container2 .cartls table .size span{
+    color: #1d1d1d;
+}
+.container2 .cartls table .color{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        position: relative;
+        top: -10px;
+        left: 70px;
+        color: #b9b9b9;
+
+}
+.container2 .cartls table .color span {
+    color: #1d1d1d;
+}
+.container2 .cartls table .dis{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container2 .cartls table .dis .dis1{
+    position: relative;
+    font-size: 12px;
+    left: -10px;
+    top: -8px;
+    background-color: #ecc797;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+.container2 .cartls table .dis .disc {
+    position: relative;
+    font-size: 12px;
+    left: -10px;
+    top: -8px;
+    background-color: #97d8ec;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+.container2 .cartls table .dis .prize{
+    position: relative;
+    left: 10px;
+    top: -5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+.container2 .cartls table .ot {
+    position: relative;
+    left: 80px;
+    top: 5px;
+    width: 200px;
+    color: #8b8a8a;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container2 .cartls table .ot a{
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+    left: 20px;
+}
+.container2 .cartls .img{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 24px;
+
+}
+.container2 .cartls img{
+    position: relative;
+    width: 80px;
+}
+.container2 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1134px;
+    background-color: #fff;
+    height: 80px;
+    position: relative;
+    z-index: 1000;
+
+
+}
+.container2 header .order span{
+    position: absolute;
+    top:12px ;
+}
+.container2 header .order .count{
+    position: absolute;
+    left: -40px;
+    top: 5px;
+    font-size: 35px;
+}
+.container2 header .order h3{
+    position: relative;
+    left: 5px;
+    top:-5px;
+    font-size: 13px;
+    color: #8b8a8a;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2 header .order{
+    position: relative;
+    left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    
+}
+.container2 header .heart{
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 24px;
+    position: relative;
+    left: 35px;
+}
+.container2 header .heart span{
+    background-color: #2763FF;
+    color: #fff;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 24px;
+}
+.container2 header .heart a{
+    text-decoration: none;
+}
+.container2 header .heart i{
+    margin: 10px 5px;
+}
+
+.container2 header span{
+    font-size: 15px;
+    color: #555555;
+    position: relative;
+    top: -5px;
+}
+.container2 .search{
+    position: relative;
+    left: 80px;
+}
+
+.container2 .search input[type="search"]{
+    padding: 10px 20px;
+    border-radius: 24px;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+}
+.container2 .search a{
+    position: relative;
+    left: -60px;
+    background-color: #2763FF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 24px;
+}
+.container2 .search a:hover{
+    background-color: black;
+}
+.container2 .cart{
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border-radius: 24px;
+    padding: 4px 1px;
+}
+.container2 .cart:hover{
+    background-color: #e0e0e0;
+}
+.container2 .cart:active{
+    background-color: #a7a7a7;
+
+}
+.container2 .cart span{
+    font-size: 17px;
+    position: relative;
+    top:2px;
+}
+.container2 .cart i{
+    font-size: 25px;
+    margin: 10px 12px;
+}
+.container2 span .count{
+    position: relative;
+    top: -18px;
+    left: -34px;
+    padding: 0px 10px;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #2763FF;
+    font-size: 17px;
+}
+.container2 .cart a{
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2 .user{
+    background-color: #f5f5f5;
+    padding: 5px 20px;
+    border-radius: 24px;
+    position: relative;
+    left: -15px;
+
+}
+.container2 .user h2{
+    position:relative;
+    left: 38px;
+    top: -25px;
+    font-size:20px ;
+}
+.container2 .user a{
+    text-decoration: none;
+    font-size: 25px;
+    background-color: orange;
+    padding: 10px 17px;
+    border-radius: 100px;
+    position: relative;
+    left: -15px;
+    top: 10px;
+
+}
+.container2 .user span{
+    position: relative;
+    top: 20px;
+    left: -33px;
+}
+.container2 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    position: relative;
+    
+}
+.container2 .header .menu .mact{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #2763FF;
+    top: 46px;
+    left: 20px;
+    width: 60px;
+    height: 7px;
+    border-radius: 100px;
+
+}
+.container2 .header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px rgb(214, 214, 214) solid;
+
+}
+.container2 .header h2{
+    position: relative;
+    left: 10px;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container2 .menu{
+    position: relative;
+    left: 40px;
+}
+.container2 .menu a{
+    text-decoration: none;
+    margin: 10px 2px;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
+
+.container2 .menu i{
+    margin: 10px 6px;
+}
+.container2 .select{
+    background-color: #f5f5f5;
+    padding: 13px 5px;
+    border-radius: 24px;
+    position: relative;
+    left: 26px;
+}
+.container2 .select a{
+    text-decoration: none;
+    margin: 10px 0px;
+    
+    padding: 9px 15px;
+    border-radius: 24px;
+}
+.container2 .select a:hover{
+    box-shadow: 0px 0px 10px rgb(170, 170, 170);
+    background-color: #fff;
+}
+.container2 .select .web{
+    box-shadow: 0px 0px 10px rgb(170, 170, 170);
+        background-color: #fff;
+
+}
+.container2 .filter{
+    background-color: #f5f5f5;
+    padding: 4px 15px;
+    border-radius: 24px;
+    position: relative;
+    left: 70px;
+
+}
+.container2 .filter a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: -8px;
+    
+}
+.container2 .filter i{
+    margin: 10px 15px;
+}
+.container2 .h1 .micon a{
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: -40px;
+    
+    background-color:#f1efef;
+    padding: 12px 15px;
+    border-radius: 24px;
+}
+.container2 .h1 .micon a:hover{
+    background-color: #2763FF;
+    color: #fff;
+}
+.container2 .h1 .micon i{
+    margin: 10px 15px;
+    font-size: 25px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+.container2 .h1 .micon{
+    position: absolute;
+    z-index: 1000;
+    left: -139px;
+    top: 12px;
+    border-right: 1px rgb(184, 184, 184) solid;
+    visibility:hidden;
+    
+}
+.container2 .h2 .micon{
+    visibility: visible;
+}
+.container2 .h2 .micon .mact{
+    background-color: #2763FF;
+    color: #fff;
+}
+.container2 .h2{
+    position: fixed;
+    top:0px;
+}
+.container2 .header{
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    transition: all 0.5s ease-in;
+    
+}
+.container3{
+    background-color: #ffffff;
+    width: 1135px;
+    height: 200vh;
+    position: relative;
+    left: 212px;
+    animation: anim3 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: scale(0.3);
+    animation-delay: 1s;
+
+}
+@keyframes anim3{
+    0%{
+        opacity: 0;
+            transform: scale(0.3);
+
+    }
+    100%{
+        opacity: 1;
+            transform: scale(1);
+
+    }
+}
+.container3 .ad1 .box{
+    width: 630px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 24px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.container3 .ad1 .box img{
+    width: 630px;
+    
+    top: -30px;
+    position: absolute;
+    opacity: 0;
+    transition: all 1s ease-in;
+}
+.container3 .ad1 .box .curr{
+    opacity: 1;
+}
+.container3 .ad1 .slide h2{
+    position: absolute;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 60px;
+    left: 180px;
+    font-size: 40px;
+    z-index: 100;
+    color: #f0f0f0;
+}
+.container3 .ad1 .slide a{
+    text-decoration: none;
+    position: absolute;
+    z-index: 100;
+    top: 120px;
+    left: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d1d1d;
+    background-color: #ffffff46;
+    padding: 10px 15px;
+    border-radius: 24px;
+    backdrop-filter: blur(20px);
+}
+.container3 .ad2 .slide{
+    width: 630px;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 24px;
+    top:20px;
+    left: 20px;
+}
+.container3 .ad2 img{
+    position: relative;
+    top:-100px;
+    width: 630px;
+    left: 0px;
+}
+.container3 .ad2 .slide h2{
+    position: relative;
+    top: 70px;
+    font-size: 45px;
+    z-index: 100;
+    left: 220px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3 .ad2 .slide h2 a{
+    position: absolute;
+    left: 320px;
+    top: -60px;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #1d1d1d;
+    font-size: 25px;
+
+}
+.container3 .ad2 .slide span{
+    position: relative;
+    z-index: 100;
+    left: 300px;
+    top: 100px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container3 .ad3 .slide{
+    position: relative;
+    top: -470px;
+    left: 670px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 220px;
+   
+    
+    
+}
+.container3 .ad3 .slide .box{
+    margin: 10px 0px;
+    position: relative;
+    left: 440px;
+}
+.container3 .ad3 .slide .box img{
+    width: 220px;
+    border-radius: 24px;
+
+}
+.container3 .ad3 .slide .box .dis{
+    position: relative;
+    top: -70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    
+}
+.container3 .ad3 .slide .box .dis h3{
+    color: #f1efef;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    font-size: 12px;
+}
+.container3 .ad3 .slide .box .dis h2 {
+    color: #f1efef;
+    font-size: 15px;
+    width: 200px;
+    position: relative;
+    left: 20px;
+    top:-25px;
+}
+.container3 .ad3 .slide .box .dis span{
+    position: relative;
+    left: 140px;
+    color: #fff;
+    background-color: #2763FF;
+    padding: 10px 15px;
+    font-size: 18px;
+    top: -25px;
+    border-radius: 24px;
+}
+
+
+.container3 .ad4 .slide {
+    position: relative;
+    top: -895px;
+    left: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 220px;
+    
+
+
+}
+
+.container3 .ad4 .slide .box {
+    margin: 10px 0px;
+    position: relative;
+    left: 440px;
+}
+
+.container3 .ad4 .slide .box img {
+    width: 220px;
+    border-radius: 24px;
+
+}
+
+.container3 .ad4 .slide .box .dis {
+    position: relative;
+    top: -70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8px;
+
+}
+
+.container3 .ad4 .slide .box .dis h3 {
+    color: #f1efef;
+    position: relative;
+    top: -30px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.container3 .ad4 .slide .box .dis h2 {
+    color: #f1efef;
+    font-size: 15px;
+    width: 200px;
+    position: relative;
+    left: 20px;
+    top: -25px;
+}
+
+.container3 .ad4 .slide .box .dis span {
+    position: relative;
+    left: 140px;
+    color: #fff;
+    background-color: #2763FF;
+    padding: 10px 15px;
+    font-size: 18px;
+    top: -25px;
+    border-radius: 24px;
+}
+.container3 .ad5 .box{
+    width: 450px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 24px;
+    position: relative;
+    top: -974px;
+    left: 670px;
+}
+.container3 .ad5 .box img{
+    width: 450px;
+    position: relative;
+    top: -20px;
+}
+.container3 .ad5 .box h2{
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1efef;
+}
+.container3 .ad5 .box a{
+    text-decoration: none;
+    color: #1d1d1d;
+    background-color: #f1efef;
+    padding: 8px 10px;
+    position: absolute;
+    left: 370px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.container4 .filter{
+    position: absolute;
+    width: 179px;
+    height: 500px;
+    background-color:#ffffff;
+    top: 1200px;
+    padding: 10px 15px;
+    border: 1px rgb(216, 215, 215) solid;
+
+}
+.container4 .actfilter{
+    position: fixed;
+    top: 100px;
+}
+.container4 .actfilter1{
+    position: relative;
+    top: 590px;
+}
+.container4 a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #5e5e5e;
+}
+.container4 li{
+    list-style: none;
+    margin: 10px 15px;
+}
+.container4 li input{
+    margin: 5px 10px;
+
+}
+.container4 .filter .box  h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #646464;
+    position: relative;
+    left: 10px;
+    
+}
+.container4 .color{
+    position: relative;
+    top: 10px;
+}
+
+.container4 .color li{
+    width: 20px;
+    height: 20px;
+    background-color: #2763FF;
+    border-radius: 100px;
+    margin: 10px 5px;
+    
+}
+.container4 .color .a2{
+    background-color: brown;
+}
+.container4 .color .a3 {
+    background-color: rgb(165, 42, 124);
+}
+.container4 .color .a4 {
+    background-color: rgb(69, 42, 165);
+}
+.container4 .color .a5 {
+    background-color: rgb(0, 0, 0);
+}
+.container4 .color .dis {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -170px;
+    margin: 10px 1px;
+    
+    
+
+}
+.container4 .color h2{
+    margin: 10px 1px;
+}
+.container4 h2{
+    margin: 30px 1px;
+    color: #555555;
+}
+.container4 .size li{
+    margin: 1px 15px;
+
+}
+.container5{
+    position:absolute;
+    width: 1118px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    left: 220px;
+    top: 900px;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.5s ease;
+}
+.actcon5{
+    transform: scale(1);
+    opacity: 1;
+}
+.container5 .item{
+    width: 280px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 24px;
+    margin: 15px 15px;
+}
+.container5 .item:hover{
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+    transition: all 0.2s ease;
+    transform: scale(1.09);
+}
+.container5 .item:hover .dis{
+    top: -80px;
+}
+.container5 .item img{
+    width: 280px;
+    border-top-right-radius: 24px;
+    border-top-left-radius:24px ;
+}
+.container5 .item .dis .prize{
+    position: absolute;
+    left: 220px;
+    top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #2763FF;
+}
+.container5 .item .dis{
+    position: relative;
+    background-color: #ffffff;
+    top: -10px;
+    width: 280px;
+    height: 150px;
+    transition: all 0.2s ease-in;
+    z-index: 100;
+}
+.container5 .item .dis1{
+    position: absolute;
+    top: -550px;
+    left: 0px;
+    background-color: #27b0ff54;
+    width: 280px;
+    height: 550px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    visibility: hidden;
+}
+.container5 .dis1 a{
+    text-decoration: none;
+    color: white;
+    
+        
+}
+.container5 .item .dis1 .btn{
+    margin: 15px 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 24px;
+    padding: 10px 15px;
+    width: 130px;
+    position: relative;
+    left: 50px;
+    top: 280px;
+}
+.container5 .item .dis1 .btn:hover{
+    background-color: #ffffff;
+    
+}
+.container5 .item .dis1 .btn:hover a {
+    color: #2763FF;
+
+}
+.container5 .item:hover .dis1{
+    visibility: visible;
+}
+.container5 .item .dis .dis2{
+    position: relative;
+    top: 50px;
+    left: 15px;
+    
+}
+.container5 .item .dis .dis2 .color{
+    display: flex;
+    align-items: center;
+    
+}
+.container5 .dis .dis2 .color .c{
+    width: 20px;
+    height: 20px;
+    background-color:#555555;
+    border-radius: 100px;
+    margin: 10px 5px;
+}
+.container5 .dis .dis2 .color .a1{
+    background-color: red;
+}
+.container5 .dis .dis2 .color .a2 {
+    background-color: rgb(55, 0, 255);
+}
+.container5 .dis .dis2 .color .a3 {
+    background-color: rgb(255, 0, 212);
+}
+.container5 .dis .dis2 .color .a4 {
+    background-color: rgb(27, 26, 26);
+}
+.container5 .dis .dis2 .size{
+    position: relative;
+    left: 10px;
+}
+.container5 .dis h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 18px;
+}
+.container5 .dis >span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 20px;
+    top: 30px;
+    color: #646464;
+}
+.container5 .box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container5 >h2{
+    position: relative;
+    left: 50px;
+    width: 500px;
+    margin: 20px 15px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .c5act{
+    position: absolute;
+    top :150px;
+    background-color: #fff;
+    width: 1128px;
+    height: 1200px;
+}
+
+.container6 .box {
+    position: fixed;
+    background-color: #ececec;
+    width: 1320px;
+    height: 94vh;
+    left: 20px;
+    top: 20px;
+    z-index: 1000;
+    border-radius: 24px;
+    transform: scale(0);
+    transition: all 0.5s ease;
+    
+    
+}
+.container6 .disbox{
+    transform: scale(1);
+}
+
+.container6 .box a{
+    text-decoration: none;
+    color: #1d1d1d;
+    background-color: #b9b9b9;
+    padding: 10px 13px;
+    border-radius: 24px;
+    position: relative;
+    left: 660px;
+
+}
+.container6 .box a:hover{
+    background-color: #2763FF;
+    color: #fff;
+}
+.container6 .actvcancle{
+    transform: scale(1);
+    visibility: visible;
+}
+.container6 .img .cimg{
+    position: relative;
+    left: 40px;
+}
+.container6 .img .cimg img{
+    width: 80px;
+    margin: 10px 5px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.container6 .img .simg{
+    position: relative;
+    top: -560px;
+    left: 150px;
+    
+}
+.container6 .img .simg img{
+    border-radius: 35px;
+
+}
+.container6 .img .cimg .m{
+    background-color: #9ab6ff;
+    width: 91px;
+    height: 138px;
+    border-radius: 24px;
+    
+}
+.container6 .box .dis{
+    position: absolute;
+    left: 600px;
+    top: 40px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    padding: 10px 15px;
+    border-radius: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container6 .box .dis h2{
+    font-size: 50px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.container6 .box .dis h3{
+    color: rgb(252, 218, 156);
+    position: relative;
+    left: 15px;
+    top: 25px;
+}
+.container6 .box .dis h3 i{
+    margin: 10px 2px;
+}
+.container6 .box .dis h4{
+    color:#2763FF;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    font-size: 13px;
+}
+.container6 .box .dis p{
+    position: relative;
+    top: 50px;
+    left: 15px;
+    width: 420px;
+}
+.container6 .box .dis .itemp{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    font-size: 40px;
+    color: #2763FF;
+}
+.container6 .box .dis .size{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.container6 .box .dis form .count input{
+    margin-top: 76px;
+    margin-left: 50px;
+    width: 40px;
+    font-size: 20px;
+}
+.container6 .box .dis form input[type="submit"]{
+    position: absolute;
+    top: 410px;
+    left: 55px;
+    padding: 10px 15px;
+    border-radius: 24px;
+    border: none;
+    background-color: #2763FF;
+    color: #fff;
+    cursor: pointer;
+}
+.container6 .box .dis form input[type="submit"]:hover{
+    background-color: #8b8a8a;
+    
+}
+.container6 .box .dis form a{
+    position: relative;
+    top: 42px;
+    left: 150px;
+    padding: 7px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container7{
+    position: absolute;
+    left: 150px;
+    top: 720px;
+    background-color: #dfe9ff;
+    width: 1100px;
+    height: 100px;
+    padding: 15px 15px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all 0.5s ease;
+
+    
+}
+.actcon7{
+    opacity: 1;
+    transform: scale(1);
+}
+.container7 .box{
+    margin: 10px 30px;
+    width: 200px;
+}
+.container7 .box h2{
+    font-size: 15px;
+    position: relative;
+    width: 200px;
+    left: -25px;
+    top: 10px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+}
+.container7 .box i{
+    background-color: rgb(146, 163, 255);
+    padding: 17px 15px;
+    border-radius: 100%;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 50px;
+}
+.container8{
+    position: absolute;
+    top: 2600px;
+    left: -140px;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 0.5s ease;
+    
+    
+}
+.container8 .slides{
+    display: flex;
+    scroll-behavior: smooth;
+    transform: scale(0.8);
+    background-color: #ffffff;
+    height: 600px;
+    overflow-x: hidden;
+    width: 1600px;
+    
+    
+}
+.container8 .item{
+    width: 280px;
+    height: 500px;
+    position: relative;
+    left: 50px;
+    border-radius: 24px;
+    margin: 15px 50px;
+    
+    
+}
+.container8 .item:hover{
+    box-shadow: 0px 0px 10px rgb(190, 190, 190);
+    transition: all 0.2s ease;
+    
+}
+.container8 .item:hover .dis{
+    top: -90px;
+}
+.container8 .item img{
+    width: 280px;
+    border-top-right-radius: 24px;
+    border-top-left-radius:24px ;
+}
+.container8 .item .dis .prize{
+    position: absolute;
+    left: 220px;
+    top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #2763FF;
+}
+.container8 .item .dis{
+    position: relative;
+    background-color: #ffffff;
+    top: -10px;
+    width: 280px;
+    height: 150px;
+    transition: all 0.2s ease-in;
+    z-index: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container8 .item .dis1{
+    position: absolute;
+    top: -335px;
+    left: 0px;
+    background-color: #27b0ff54;
+    width: 280px;
+    height: 335px;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    visibility: hidden;
+}
+.container8 .dis1 a{
+    text-decoration: none;
+    color: white;
+    
+        
+}
+.container8 .item .dis1 .btn{
+    margin: 15px 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 24px;
+    padding: 10px 15px;
+    width: 130px;
+    position: relative;
+    left: 50px;
+    top: 150px;
+}
+.container8 .item .dis1 .btn:hover{
+    background-color: #ffffff;
+    
+}
+.container8 .item .dis1 .btn:hover a {
+    color: #2763FF;
+
+}
+.container8 .item:hover .dis1{
+    visibility: visible;
+}
+.container8 .item .dis .dis2{
+    position: relative;
+    top: 50px;
+    left: 15px;
+    
+}
+.container8 .item .dis .dis2 .color{
+    display: flex;
+    align-items: center;
+    
+}
+.container8 .dis .dis2 .color .c{
+    width: 20px;
+    height: 20px;
+    background-color:#555555;
+    border-radius: 100px;
+    margin: 10px 5px;
+}
+.container8 .dis .dis2 .color .a1{
+    background-color: red;
+}
+.container8 .dis .dis2 .color .a2 {
+    background-color: rgb(55, 0, 255);
+}
+.container8 .dis .dis2 .color .a3 {
+    background-color: rgb(255, 0, 212);
+}
+.container8 .dis .dis2 .color .a4 {
+    background-color: rgb(27, 26, 26);
+}
+.container8 >h2{
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    left: 200px;
+    width: 200px;
+
+}
+.actcon8{
+    opacity: 1;
+    transform: scale(0.9);
+}
+.container9 a{
+    text-decoration: none;
+    font-size:35px;
+    color: #f2f3f7;
+
+}
+.container9{
+    position: fixed;
+    left: 1250px;
+    top: 560px;
+    z-index: 100000;
+    background-color: #2867fb;
+    padding: 20px 18px;
+    border-radius: 100%;
+    border: 2px rgb(247, 247, 249) solid;
+    box-shadow: 0px 0px 10px rgb(0, 0, 188);
+    cursor: pointer;
+    
+}
+.container9 .box{
+    position: fixed;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(242, 243, 255);
+    left: 980px;
+    top: 180px;
+    padding: 10px 15px;
+    border-radius: 24px;
+    overflow: hidden;
+    transform: rotate(-90deg);
+    transform-origin: bottom right;
+    visibility: hidden;
+    
+   
+}
+.container9 .actbox{
+    transition: all 0.4s ease;
+    transform: rotate(0deg);
+    visibility:visible;
+
+
+}
+
+.container9 #cancle{
+   
+    padding: 8px 10px;
+    border-radius: 100px;
+}
+.container9 #cancle:hover{
+    background-color: #bababa;
+}
+
+.container9 .box #l1 span{
+    position: relative;
+    left: -50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+
+}
+
+.container9 .box #l1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #2763FF;
+    padding: 12px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    position: relative;
+    left: -15px;
+    top: -10px;
+}
+
+.container9 .box .c1 .cdis h2{
+    background-color: #2763FF;
+    margin: 10px 10px;
+    border-radius: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 140px;
+    color: #f7f7f7;
+    position: relative;
+    left: 40px;
+    top: -40px;
+}
+.container9 .box .c1 .cdis i{
+    background-color: #2763FF;
+    color: #fff;
+    padding: 12px 10px;
+    border-radius: 100px;
+    position: relative;
+    top: 8px;
+    
+}
+.container9 .box .c1 .udis h2{
+    background-color: rgb(219, 221, 255);
+    margin: 10px 10px;
+    border-radius: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 10px 15px;
+    width: 140px;
+    color: #0a0a0a;
+    position: relative;
+    left: 140px;
+    top: -40px;
+
+}
+.container9 .box .c1 .udis span{
+    background-color: rgb(192, 192, 255);
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 100px;
+    position: relative;
+    left: 275px;
+    
+}
+.container9 .box .c1{
+    width: 350px;
+    height: 300px;
+    overflow-y: auto;
+    position: relative;
+    left: -12px;
+    top: -5px;
+}
+.container9 .box .c2{
+    position: relative;
+    top: -42px;
+    background-color:#d7e2ff;
+    padding: 10px 20px;
+    width: 500px;
+    left: -13px;
+    height: 50px;
+}
+.container9 .box .c2 input{
+    border: none;
+    color: #0a0a0a;
+    padding: 10px 15px;
+    position: fixed;
+    background-color: #d7e2ff;
+    outline: none;
+    top: 325px;
+}
+.container9 .box .c2 a{
+    text-decoration: none;
+    position: fixed;
+    color: #0a0a0a;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2763FF;
+    padding: 10px 15px;
+    border-radius: 24px;
+    top: 328px;
+    left: 240px;
+}
+.container9 .box .c2 a:hover{
+    background-color: #0a0a0a;
+}
+

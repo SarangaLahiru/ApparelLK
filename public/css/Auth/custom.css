@@ -1,0 +1,1041 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+.load {
+    position: fixed;
+    z-index: 10000;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+
+}
+
+.onload {
+    visibility: visible;
+
+}
+
+.load img {
+    width: 100px;
+    position: absolute;
+    left: 650px;
+    top: 250px;
+
+}
+.container1 {
+    width: 210px;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    overflow: hidden;
+    font-size: 15px;
+    left: -100px;
+    opacity: 0;
+    animation: anim1 2s;
+    animation-fill-mode: forwards;
+    z-index: 100;
+
+}
+
+.container1 li{
+
+    list-style: none;
+    position: relative;
+    left: 18px;
+        
+}
+.container1 .box li:hover span{
+    left: 50px;
+    opacity: 1;
+
+}
+.container1 .box li{
+    line-height: 2em;
+}
+.container1 .box span{
+    background-color: #2763FF;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: -65px;
+    padding: 10px 15px;
+    border-radius: 24px;
+    left: 20px;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    opacity: 0;
+    
+}
+.container1 li .acticon1{
+    background-color: #fff;
+    color: #2763FF;
+}
+.container1 li a:hover{
+    background-color: rgb(214, 214, 214);
+    color: #2763FF;
+}
+.container1 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    position: relative;
+    left: -10px;
+    border-radius: 24px;
+}
+.container1 .box{
+    background-color: #2763FF;
+    line-height: 3.3em;
+    width: 65px;
+    height: 450px;
+    font-size: 30px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    border-radius: 50px;
+}
+.container1 li{
+    position: relative;
+    top: 60px;
+}
+@keyframes anim1 {
+    0% {
+        left: -100px;
+        opacity: 0;
+
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+
+    }
+}
+
+
+
+.container2 {
+    background-color: rgb(255, 255, 255);
+    width: 1134px;
+    position: relative;
+    border-bottom: 1px rgb(221, 221, 221) solid;
+    left: 212px;
+    z-index: 1000;
+    top: -100px;
+    opacity: 0;
+    animation: anim2 1s;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+@keyframes anim2 {
+    0% {
+        top: -100px;
+        opacity: 0;
+
+    }
+
+    100% {
+        top: 0px;
+        opacity: 1;
+
+    }
+}
+.container2 .h1 h3{
+    position: absolute;
+    left: -180px;
+    font-size: 30px;
+}
+.container2 .cartls {
+    background-color: #fdfdfd;
+    width: 390px;
+    height: 540px;
+    position: fixed;
+    left: 1400px;
+    top: 80px;
+    z-index: 1000;
+    border-radius: 24px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 10px rgb(121, 120, 120);
+    transition: all 0.5s ease;
+    opacity: 0;
+    
+
+
+
+}
+
+.container2 .actcartls {
+    left: 920px;
+    opacity: 1;
+   
+
+}
+
+.container2 .cartls .cartcancle {
+    text-decoration: none;
+    color: black;
+    padding: 10px 12px;
+    background-color: #e4e4e4;
+    border-radius: 100px;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+
+.container2 .cartls .cartcancle:hover {
+    background-color: #8b8a8a;
+    color: #ffffff;
+}
+
+.container2 .cartls .box1 {
+    border: 1px rgb(207, 207, 207) solid;
+    height: 460px;
+
+    position: relative;
+    top: 50px;
+    border-radius: 24px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container2 .cartls h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+}
+
+.container2 .cartls h2 a {
+    text-decoration: none;
+    color: #2763FF;
+    font-size: 13px;
+    position: relative;
+    left: 220px;
+}
+
+.container2 .cartls table {
+
+    width: 380px;
+    margin-top: -10px;
+}
+
+.container2 .cartls table td {
+    padding: 10px 15px;
+    border-bottom: 1px rgb(207, 207, 207) solid;
+
+}
+
+.container2 .cartls table p {
+    color: #b9b9b9;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: -10px;
+}
+
+.container2 .cartls table h2 {
+    position: relative;
+    left: -10px;
+    top: 15px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container2 .cartls table .size {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+    left: -10px;
+    color: #b9b9b9;
+}
+
+.container2 .cartls table .size span {
+    color: #1d1d1d;
+}
+
+.container2 .cartls table .color {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: 70px;
+    color: #b9b9b9;
+
+}
+
+.container2 .cartls table .color span {
+    color: #1d1d1d;
+}
+
+.container2 .cartls table .dis {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container2 .cartls table .dis .dis1 {
+    position: relative;
+    font-size: 12px;
+    left: -10px;
+    top: -8px;
+    background-color: #ecc797;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+.container2 .cartls table .dis .disc {
+    position: relative;
+    font-size: 12px;
+    left: -10px;
+    top: -8px;
+    background-color: #97d8ec;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+.container2 .cartls table .dis .prize {
+    position: relative;
+    left: 10px;
+    top: -5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.container2 .cartls table .ot {
+    position: relative;
+    left: 80px;
+    top: 5px;
+    width: 200px;
+    color: #8b8a8a;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container2 .cartls table .ot a {
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+    left: 20px;
+}
+
+.container2 .cartls .img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 24px;
+
+}
+
+.container2 .cartls img {
+    position: relative;
+    width: 80px;
+}
+
+.container2 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1134px;
+    background-color: #fff;
+    height: 80px;
+    position: relative;
+    z-index: 1000;
+
+
+}
+
+.container2 header .order span {
+    position: absolute;
+    top: 12px;
+}
+
+.container2 header .order .count {
+    position: absolute;
+    left: -40px;
+    top: 5px;
+    font-size: 35px;
+}
+
+.container2 header .order h3 {
+    position: relative;
+    left: 5px;
+    top: -5px;
+    font-size: 13px;
+    color: #8b8a8a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container2 header .order {
+    position: relative;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+}
+
+.container2 header .heart {
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 24px;
+    position: relative;
+    left: 35px;
+}
+
+.container2 header .heart span {
+    background-color: #2763FF;
+    color: #fff;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 24px;
+}
+
+.container2 header .heart a {
+    text-decoration: none;
+}
+
+.container2 header .heart i {
+    margin: 10px 5px;
+}
+
+.container2 header span {
+    font-size: 15px;
+    color: #555555;
+    position: relative;
+    top: -5px;
+}
+
+.container2 .search {
+    position: relative;
+    left: 80px;
+}
+
+.container2 .search input[type="search"] {
+    padding: 10px 20px;
+    border-radius: 24px;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.container2 .search a {
+    position: relative;
+    left: -60px;
+    background-color: #2763FF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 24px;
+}
+
+.container2 .search a:hover {
+    background-color: black;
+}
+
+.container2 .cart {
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border-radius: 24px;
+    padding: 4px 1px;
+}
+
+.container2 .cart:hover {
+    background-color: #e0e0e0;
+}
+
+.container2 .cart:active {
+    background-color: #a7a7a7;
+
+}
+
+.container2 .cart span {
+    font-size: 17px;
+    position: relative;
+    top: 2px;
+}
+
+.container2 .cart i {
+    font-size: 25px;
+    margin: 10px 12px;
+}
+
+.container2 span .count {
+    position: relative;
+    top: -18px;
+    left: -34px;
+    padding: 0px 10px;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #2763FF;
+    font-size: 17px;
+}
+
+.container2 .cart a {
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container2 .user {
+    background-color: #f5f5f5;
+    padding: 5px 20px;
+    border-radius: 24px;
+    position: relative;
+    left: -15px;
+
+}
+
+.container2 .user h2 {
+    position: relative;
+    left: 38px;
+    top: -25px;
+    font-size: 20px;
+}
+
+.container2 .user a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: orange;
+    padding: 10px 17px;
+    border-radius: 100px;
+    position: relative;
+    left: -15px;
+    top: 10px;
+
+}
+
+.container2 .user span {
+    position: relative;
+    top: 20px;
+    left: -33px;
+}
+
+.container2 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    position: relative;
+
+}
+
+.container2 .header .menu .mact {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #2763FF;
+    top: 46px;
+    left: 20px;
+    width: 60px;
+    height: 7px;
+    border-radius: 100px;
+
+}
+
+.container2 .header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px rgb(214, 214, 214) solid;
+
+}
+
+.container2 .header h2 {
+    position: relative;
+    left: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container2 .menu {
+    position: relative;
+    left: 40px;
+}
+
+.container2 .menu a {
+    text-decoration: none;
+    margin: 10px 2px;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
+
+.container2 .menu i {
+    margin: 10px 6px;
+}
+
+.container2 .select {
+    background-color: #f5f5f5;
+    padding: 13px 5px;
+    border-radius: 24px;
+    position: relative;
+    left: 26px;
+}
+
+.container2 .select a {
+    text-decoration: none;
+    margin: 10px 0px;
+
+    padding: 9px 15px;
+    border-radius: 24px;
+}
+
+.container2 .select a:hover {
+    box-shadow: 0px 0px 10px rgb(170, 170, 170);
+    background-color: #fff;
+}
+
+.container2 .select .web {
+    box-shadow: 0px 0px 10px rgb(170, 170, 170);
+    background-color: #fff;
+
+}
+
+.container2 .filter {
+    background-color: #f5f5f5;
+    padding: 4px 15px;
+    border-radius: 24px;
+    position: relative;
+    left: 70px;
+
+}
+
+.container2 .filter a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: -8px;
+
+}
+
+.container2 .filter i {
+    margin: 10px 15px;
+}
+
+.container2 .h1 .micon a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: -40px;
+
+    background-color: #f1efef;
+    padding: 12px 15px;
+    border-radius: 24px;
+}
+
+.container2 .h1 .micon a:hover {
+    background-color: #2763FF;
+    color: #fff;
+}
+
+.container2 .h1 .micon i {
+    margin: 10px 15px;
+    font-size: 25px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+.container2 .h1 .micon {
+    position: absolute;
+    z-index: 1000;
+    left: -139px;
+    top: 12px;
+    border-right: 1px rgb(184, 184, 184) solid;
+    visibility: hidden;
+
+}
+
+.container2 .h2 .micon {
+    visibility: visible;
+}
+
+.container2 .h2 .micon .mact {
+    background-color: #2763FF;
+    color: #fff;
+}
+
+.container2 .h2 {
+    position: fixed;
+    top: 0px;
+}
+
+.container2 .header {
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    transition: all 0.5s ease-in;
+
+}
+.container3{
+    position: relative;
+    background-color: #ffffff;
+    width: 600px;
+    height: 550px;
+    left: 300px;
+    z-index: 10;
+    
+}
+.container3 .box1{
+    position: relative;
+    background-color: #ffffff;
+    width: 400px;
+    height: 550px;
+    left: 200px;
+    z-index: 10;
+
+}
+.container3 .box li{
+    list-style: none;
+}
+.container3 .box .dis{
+    width: 350px;
+    height: 350px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    border-radius: 0 0 1000px 10px;
+    border-right:2px rgb(173, 173, 173) solid ;
+    transform:rotate(-45deg);
+    
+    
+    
+}
+.container3 .box .dis .color{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 300px;
+    transform: rotate(45deg);
+    visibility: hidden;
+    
+    
+}
+.container3 .box .dis .logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 300px;
+    transform: rotate(45deg);
+    visibility: hidden;
+    
+    
+
+}
+.container3 .box .dis .text {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 300px;
+    transform: rotate(45deg);
+    visibility: hidden;
+
+
+}
+.container3 .box .dis .logo li{
+    overflow: hidden;
+
+}
+.container3 .box .dis .logo li img{
+    width:60px;
+    position: relative;
+    left: -5px;
+    top: -5px;
+}
+.container3 .box .dis .text li {
+    overflow: hidden;
+
+}
+
+.container3 .box .dis .text li img {
+    width: 65px;
+    position: relative;
+    left: -8px;
+    top: 1px;
+}
+.container3 .box .dis .color .curr{
+    transform: scale(1.8);
+    border: 2px rgb(62, 88, 238) solid;
+}
+.container3 .box .dis .logo .curr {
+    transform: scale(1.8);
+    border: 2px rgb(62, 88, 238) solid;
+}
+.container3 .box .dis .text .curr {
+    transform: scale(1.8);
+    border: 2px rgb(62, 88, 238) solid;
+}
+.container3 .box .dis .color li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    background-color: #2763FF;
+    font-size: 50px;
+    margin: 50px 0px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    
+}
+.container3 .box .dis .logo li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    background-color: #2763FF;
+    font-size: 50px;
+    margin: 50px 0px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+
+}
+.container3 .box .dis .text li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    background-color: #2763FF;
+    font-size: 50px;
+    margin: 50px 0px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+
+}
+
+.container3 .box .dis .color .c1{
+    position: relative;
+    left: -30px;
+    background-color: rgb(25, 167, 233);
+    
+}
+.container3 .box .dis .color .c2 {
+    position: relative;
+    left: 20px;
+    background-color: rgb(233, 25, 223);
+
+}
+.container3 .box .dis .color .c3 {
+    position: relative;
+    left: 35px;
+    background-color:rgb(219, 219, 12);
+
+}
+.container3 .box .dis .color .c4 {
+    position: relative;
+    left: 20px;
+    background-color: rgb(255, 51, 0);
+
+}
+.container3 .box .dis .color .c5 {
+    position: relative;
+    left: -30px;
+    background-color: #000;
+
+}
+.container3 .logoact{
+    width: 200px;
+    position: absolute;
+    left: 220px;
+    top: 220px;
+    z-index: 100000;
+    visibility: hidden;
+
+}
+.container3 .lgact{
+    visibility: visible;
+}
+.container3 .box .dis .logo .l1 {
+    position: relative;
+    left: -30px;
+   
+
+}
+
+.container3 .box .dis .logo .l2 {
+    position: relative;
+    left: 20px;
+    
+
+}
+
+.container3 .box .dis .logo .l3 {
+    position: relative;
+    left: 35px;
+    
+
+}
+
+.container3 .box .dis .logo .l4 {
+    position: relative;
+    left: 20px;
+   
+
+}
+
+.container3 .box .dis .logo .l5 {
+    position: relative;
+    left: -30px;
+    
+
+}
+.container3 .box .tcustom{
+    position: absolute;
+    z-index: 1000;
+    left: 220px; 
+    top: 250px;
+    font-size: 50px;
+    visibility: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3 .box .actcustom{
+    visibility: visible;
+}
+
+.container3 .box .box1 .simg img{
+    position: relative;
+    left: -220px;
+    top: 80px;
+    width: 650px;
+    border-radius: 24px;
+    
+}
+.container3 .box .box1 .cimg img{
+    width: 120px;
+    border-radius: 24px;
+    
+    
+}
+.container3 .box .box1 .cimg{
+    position: relative;
+    left: -370px;
+    top: -300px;
+    width: 100px;
+}
+.container3 .box .box1 .cimg .dimgs{
+    border: 4px black solid;
+}
+.container3 .box .dis .act{
+    visibility: visible;
+}
+
+.container3 .text .box{
+
+    position: absolute;
+    top: 200px;
+    left: -40px;
+    background-color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container3 .text .box input{
+    padding: 10px 15px;
+    border-radius: 24px;
+    position: relative;
+    top: 20px;
+
+}
+.container3 .text .box a{
+    text-decoration:none;
+    position: relative;
+    top:40px;
+    left: 0px;
+    color: #fff;
+    background-color: #2763FF;
+    border-radius: 24px;
+    padding: 10px 15px;
+}
+.container3 .text .box a:hover{
+    background-color: #000;
+}
+
+.container3 form{
+    position: relative;
+    width: 200px;
+    height: 500px;
+    background-color: rgb(236, 236, 236);
+    left: 850px;
+    top: -520px;
+    border-radius: 24px;
+}
+.container3 form h2{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.container3 form span{
+    color: #2763FF;
+    font-size: 35px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+
+.container3 form input[type="submit"]{
+    position: relative;
+    background-color: #2763FF;
+    padding: 10px 45px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    top: 180px;
+    left: 25px;
+    cursor: pointer;
+}
+.container3 form input[type="submit"]:hover{
+    background-color: #000;
+}
+.container3 form p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    width: 155px;
+    position: relative;
+    left: 22px;
+    top: 95px;
+}
+.container3 form a {
+    position: relative;
+    background-color: #2763FF;
+    padding: 10px 62px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    top: 210px;
+    left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.container3 form a:hover {
+    background-color: #000;
+}

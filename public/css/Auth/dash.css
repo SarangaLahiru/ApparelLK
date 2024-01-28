@@ -1,0 +1,1182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.load {
+    position: fixed;
+    z-index: 10000;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    visibility: hidden;
+
+}
+
+.onload {
+    visibility: visible;
+
+}
+
+.load img {
+    width: 100px;
+    position: absolute;
+    left: 650px;
+    top: 250px;
+
+}
+
+.container1 {
+    width: 210px;
+    height: 100vh;
+    background-color:#2763FF;
+    position: absolute;
+    overflow: hidden;
+    font-size: 15px;
+    border-right: 1px rgb(206, 206, 206) solid;
+    left: -100px;
+    opacity: 0;
+    animation: anim1 2s;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+@keyframes anim1 {
+    0% {
+        left: -100px;
+        opacity: 0;
+
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+
+    }
+}
+.container1 .lsact {
+    background-color: #ffffff;
+    color: #ffffff;
+
+}
+
+.container1 .ls i {
+    color: #ffffff;
+}
+.container1 .lsact i {
+    color: #2763FF;
+}
+.container1 .lsact a {
+
+    color:#2763FF;
+}
+
+.c1act {
+    position: fixed;
+    z-index: 1000;
+}
+
+.c1act h2 {
+    visibility: hidden;
+}
+
+.container1 li {
+    list-style: none;
+    background-color:#2763FF;
+    margin: 10px 15px;
+    border-radius: 18px;
+    padding: 0px 15px;
+    width: 165px;
+    height: 42px;
+    position: relative;
+    left: -20px;
+
+
+}
+
+.container1 .box li:hover {
+    background-color: #ffffff;
+}
+
+.container1 .box li:active {
+    background-color: #b7c5e9;
+}
+
+.container1 .box li:hover a {
+    color:#2763FF;
+}
+
+.container1 .box li:hover i {
+    color: #2763FF;
+}
+
+.container1>h2 {
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    top: 20px;
+}
+
+.container1 a {
+    text-decoration: none;
+    position: relative;
+    left: -5px;
+    top: -2px;
+    padding: 5px 15px;
+    margin-top: -5px;
+    color:#f1efef;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container1 .user{
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    border-bottom: 1px rgb(241, 241, 241) solid;
+    padding: 20px 5px;
+
+}
+.container1 .user span{
+    background-color: #f8f8f8;
+    padding: 10px 17px;
+    font-size: 25px;
+    position: relative;
+    top: -18px;
+    left: -55px;
+    border-radius: 50px;
+}
+.container1 .user h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color:#dfdfdf;
+    position: relative;
+    top: 0px;
+    left: -20px;
+}
+.container1 .user .dname {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #f8f8f8;
+    position: relative;
+    left: -55px;
+}
+.container1 .user h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+    position: relative;
+    top: 0px;
+    left: -50px;
+}
+.container1 .user h3 a{
+    position: absolute;
+    left: 150px;
+    top: 12px;
+    font-size: 18px;
+}
+
+.container1 .box {
+
+    position: relative;
+    top: 140px;
+    line-height: 3em;
+    left: 15px;
+    width: 180px;
+    border-bottom: 1px rgb(245, 245, 245) solid;
+}
+
+.container1 .box1 li {
+    width: 160px;
+    left: 2px;
+    width: 158px;
+
+
+}
+
+.container1 .log i {
+    margin: 10px 15px;
+}
+
+.container1 .log a {
+    text-decoration: none;
+
+}
+
+.container1 .log {
+    position: relative;
+    top: 190px;
+    left: 20px;
+    font-size: 18px;
+    background-color:#2763FF;
+    padding: 5px 5px;
+    width: 150px;
+    border-radius: 24px;
+    border: 2px #fdfdfd solid;
+}
+
+.container1 .log:hover {
+    background-color: #fdfdfd;
+}
+
+.container1 .log:hover a {
+    color:#2763FF;
+}
+
+.container1 .box1 {
+    position: relative;
+    top: 85px;
+    font-size: 14px;
+    visibility: hidden;
+    z-index: -10;
+}
+
+.container1 .box1 h2 {
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    position: relative;
+    top: -10px;
+    color: rgb(141, 140, 140);
+    
+}
+
+.container1 .box1 li i {
+    background-color: rgb(234, 236, 236);
+    padding: 8px 8px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.container1 .box1 a {
+    font-size: 12px;
+    color: rgb(49, 48, 48);
+    position: relative;
+    top: 5px;
+
+
+}
+.container1 .add1 {
+    position:absolute;
+    left: 10px;
+    top: 420px;
+    width: 200px;
+    
+}
+
+.container1 .add1 .img {
+    position: relative;
+    width: 190px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 15px;
+   
+}
+
+.container1 .add1 .img img {
+    position: relative;
+    width: 250px;
+    top: -30px;
+    left: -50px;
+    
+}
+
+.container1 .add1 .dis {
+    position: relative;
+    top: -300px;
+}
+
+.container1 .add1 .dis h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 90px;
+    top: 80px;
+    width: 150px;
+
+}
+
+.container1 .add1 .dis h3 {
+
+    font-size: 10px;
+    position: relative;
+    left: 120px;
+    top: 100px;
+    width: 80px;
+}
+.container2 {
+    background-color: rgb(255, 255, 255);
+    width: 1134px;
+    position: relative;
+    left: 212px;
+    z-index: 1000;
+    top: -100px;
+    opacity: 0;
+    animation: anim2 1s;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+@keyframes anim2 {
+    0% {
+        top: -100px;
+        opacity: 0;
+
+    }
+
+    100% {
+        top: 0px;
+        opacity: 1;
+
+    }
+}
+.container2 .cartls {
+    background-color: #fdfdfd;
+    width: 390px;
+    height: 540px;
+    position: fixed;
+    left: 1400px;
+    top: 80px;
+    z-index: 1000;
+    border-radius: 24px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 10px rgb(121, 120, 120);
+    transition: all 0.5s ease;
+    opacity: 0;
+
+
+
+}
+
+.container2 .actcartls {
+    left: 920px;
+    opacity: 1;
+
+}
+
+.container2 .cartls .cartcancle {
+    text-decoration: none;
+    color: black;
+    padding: 10px 12px;
+    background-color: #e4e4e4;
+    border-radius: 100px;
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+
+.container2 .cartls .cartcancle:hover {
+    background-color: #8b8a8a;
+    color: #ffffff;
+}
+
+.container2 .cartls .box1 {
+    border: 1px rgb(207, 207, 207) solid;
+    height: 460px;
+    position: relative;
+    top: 50px;
+    border-radius: 24px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container2 .cartls h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+}
+
+.container2 .cartls h2 a {
+    text-decoration: none;
+    color: #2763FF;
+    font-size: 13px;
+    position: relative;
+    left: 220px;
+}
+
+.container2 .cartls table {
+
+    width: 380px;
+    margin-top: -10px;
+}
+
+.container2 .cartls table td {
+    padding: 10px 15px;
+    border-bottom: 1px rgb(207, 207, 207) solid;
+
+}
+
+.container2 .cartls table p {
+    color: #b9b9b9;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: -10px;
+}
+
+.container2 .cartls table h2 {
+    position: relative;
+    left: -10px;
+    top: 15px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container2 .cartls table .size {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 12px;
+    left: -10px;
+    color: #b9b9b9;
+}
+
+.container2 .cartls table .size span {
+    color: #1d1d1d;
+}
+
+.container2 .cartls table .color {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+    left: 70px;
+    color: #b9b9b9;
+
+}
+
+.container2 .cartls table .color span {
+    color: #1d1d1d;
+}
+
+.container2 .cartls table .dis {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container2 .cartls table .dis .dis1 {
+    position: relative;
+    font-size: 12px;
+    left: -10px;
+    top: -8px;
+    background-color: #ecc797;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+.container2 .cartls table .dis .disc {
+    position: relative;
+    font-size: 12px;
+    left: -10px;
+    top: -8px;
+    background-color: #97d8ec;
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+
+.container2 .cartls table .dis .prize {
+    position: relative;
+    left: 10px;
+    top: -5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.container2 .cartls table .ot {
+    position: relative;
+    left: 80px;
+    top: 5px;
+    width: 200px;
+    color: #8b8a8a;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.container2 .cartls table .ot a {
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+    left: 20px;
+}
+
+.container2 .cartls .img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 24px;
+
+}
+
+.container2 .cartls img {
+    position: relative;
+    width: 80px;
+}
+
+.container2 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1134px;
+    background-color: #fff;
+    height: 80px;
+    position: relative;
+    z-index: 1000;
+
+
+}
+.container2 header .order span {
+    position: absolute;
+    top: 12px;
+}
+
+.container2 header .order .count {
+    position: absolute;
+    left: -40px;
+    top: 5px;
+    font-size: 35px;
+}
+
+.container2 header .order h3 {
+    position: relative;
+    left: 5px;
+    top: -5px;
+    font-size: 13px;
+    color: #8b8a8a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container2 header .order {
+    position: relative;
+    left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+}
+
+.container2 header .heart {
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 24px;
+    position: relative;
+    left: 35px;
+}
+
+.container2 header .heart span {
+    background-color: #2763FF;
+    color: #fff;
+    position: absolute;
+    padding: 5px 10px;
+    border-radius: 24px;
+}
+
+.container2 header .heart a {
+    text-decoration: none;
+}
+
+.container2 header .heart i {
+    margin: 10px 5px;
+}
+
+.container2 header span {
+    font-size: 15px;
+    color: #555555;
+    position: relative;
+    top: -5px;
+}
+
+.container2 .search {
+    position: relative;
+    left: 80px;
+}
+
+.container2 .search input[type="search"] {
+    padding: 10px 20px;
+    border-radius: 24px;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+}
+
+.container2 .search a {
+    position: relative;
+    left: -60px;
+    background-color: #2763FF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 24px;
+}
+
+.container2 .search a:hover {
+    background-color: black;
+}
+
+.container2 .cart {
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border-radius: 24px;
+    padding: 4px 1px;
+}
+
+.container2 .cart:hover {
+    background-color: #e0e0e0;
+}
+
+.container2 .cart:active {
+    background-color: #a7a7a7;
+
+}
+
+.container2 .cart span {
+    font-size: 17px;
+    position: relative;
+    top: 2px;
+}
+
+.container2 .cart i {
+    font-size: 25px;
+    margin: 10px 12px;
+}
+
+.container2 span .count {
+    position: relative;
+    top: -18px;
+    left: -34px;
+    padding: 0px 10px;
+    border-radius: 24px;
+    color: #fff;
+    background-color: #2763FF;
+    font-size: 17px;
+}
+
+.container2 .cart a {
+    text-decoration: none;
+    color: #555555;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container2 .user {
+    background-color: #f5f5f5;
+    padding: 5px 20px;
+    border-radius: 24px;
+    position: relative;
+    left: -15px;
+
+}
+
+.container2 .user h2 {
+    position: relative;
+    left: 38px;
+    top: -25px;
+    font-size: 20px;
+}
+
+.container2 .user a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color: orange;
+    padding: 10px 17px;
+    border-radius: 100px;
+    position: relative;
+    left: -15px;
+    top: 10px;
+
+
+}
+
+.container2 .user span {
+    position: relative;
+    top: 20px;
+    left: -33px;
+}
+
+.container2 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    position: relative;
+
+}
+
+.container2 .header .menu .mact {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #2763FF;
+    top: 46px;
+    left: 20px;
+    width: 60px;
+    height: 7px;
+    border-radius: 100px;
+
+}
+
+.container2 .header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px rgb(214, 214, 214) solid;
+
+}
+
+.container2 .header h2 {
+    position: relative;
+    left: 10px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container2 .menu {
+    position: relative;
+    left: 40px;
+}
+
+.container2 .menu a {
+    text-decoration: none;
+    margin: 10px 2px;
+    color: black;
+    background-color: #f5f5f5;
+    padding: 10px 20px;
+    border-radius: 24px;
+}
+
+.container2 .menu i {
+    margin: 10px 6px;
+}
+
+.container2 .select {
+    background-color: #f5f5f5;
+    padding: 13px 5px;
+    border-radius: 24px;
+    position: relative;
+    left: 26px;
+}
+
+.container2 .select a {
+    text-decoration: none;
+    margin: 10px 0px;
+
+    padding: 9px 15px;
+    border-radius: 24px;
+}
+
+.container2 .select a:hover {
+    box-shadow: 0px 0px 10px rgb(170, 170, 170);
+    background-color: #fff;
+}
+
+.container2 .select .dash {
+    box-shadow: 0px 0px 10px rgb(170, 170, 170);
+    background-color: #fff;
+
+}
+
+.container2 .filter {
+    background-color: #f5f5f5;
+    padding: 4px 15px;
+    border-radius: 24px;
+    position: relative;
+    left: 70px;
+
+}
+
+.container2 .filter a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: -8px;
+
+}
+
+.container2 .filter i {
+    margin: 10px 15px;
+}
+
+.container2 .h1 .micon a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    left: -40px;
+
+    background-color: #f1efef;
+    padding: 12px 15px;
+    border-radius: 24px;
+}
+
+.container2 .h1 .micon a:hover {
+    background-color: #2763FF;
+    color: #fff;
+}
+
+.container2 .h1 .micon i {
+    margin: 10px 15px;
+    font-size: 25px;
+    position: relative;
+    left: 5px;
+    top: 2px;
+}
+
+.container2 .h1 .micon {
+    position: absolute;
+    z-index: 1000;
+    left: -139px;
+    top: 12px;
+    border-right: 1px rgb(184, 184, 184) solid;
+    visibility: hidden;
+
+}
+
+.container2 .h2 .micon {
+    visibility: visible;
+}
+
+.container2 .h2 .micon .mact {
+    background-color: #2763FF;
+    color: #fff;
+}
+
+.container2 .h2 {
+    position: fixed;
+    top: 0px;
+}
+
+.container2 .header {
+    background-color: #fff;
+    position: relative;
+    top: 0px;
+    transition: all 0.5s ease-in;
+
+}
+
+.container3 .add1{
+    overflow: hidden;
+    position: relative;
+    width: 260px;
+    height: 460px;
+    left: 1060px;
+    top: 10px;
+    border-radius: 24px;
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0;
+    animation: anim3 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.container3 .add1 a{
+    text-decoration: none;
+    position: relative;
+    top: 160px;
+    left: 10px;
+    color: #ffffff;
+    background-color: #7aa0ff;
+    padding: 10px 15px;
+    border-radius: 24px;
+}
+.container3 .add1 a:hover{
+    background-color: #2763FF;
+}
+.container3 .add1 a:active {
+    background-color: #c4d1f0;
+}
+.container3 .add1 i{
+    margin: 10px 15px;
+}
+.container3 .add1 h2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+}
+.container3 .add1 h2 {
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+}
+.container3 .add1 .box{
+    background-color: #89aaff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #d1deff;
+    position: relative;
+    top: 20px;
+    height: 200px;
+    font-size: 13px;
+    
+}
+.container3 .add1 .pay h2{
+    position: relative;
+    left: 10px;
+}
+.container3 .add1 .boption{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size: 60px;
+}
+.container3 .add1 .boption i{
+    background-color: #dbdbdb;
+    color: #fff;
+    font-size: 40px;
+    padding: 10px 15px;
+    border-radius: 24px;
+}
+
+
+.container3 .add1 .box .total h2{
+    position: relative;
+    left: 100px;
+    top: -42px;
+}
+.container3 .add1 .box .total span{
+    position: relative;
+    left: 10px;
+    top: 45px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.container3 .add1 .box .dis{
+    position: relative;
+    top: 30px;
+    width: 230px;
+    
+    border-bottom: 1px rgb(255, 255, 255) solid;
+}
+.container3 .add1 .box .dis span h1{
+    position: relative;
+    left: 150px;
+    top: -15px;
+    font-size: 12px;
+    color: #fff;
+    
+}
+.container3 .add1 .box span{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    
+}
+.container3 .add1 .box h2{
+    color: #fafbfd;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 30px;
+}
+.container3 .add2{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 210px;
+    top: 155px;
+    width: 850px;
+    opacity: 0;
+    animation: anim3 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+}
+.container3 .add2 .box{
+    margin: 10px 15px;
+    background-color:#f5f5f5;
+    padding: 10px 15px;
+    width: 900px;
+    height: 100px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 10px rgb(211, 211, 211);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3 .add2 .box i{
+    margin: 10px 15px;
+    background-color: #a7a7a7;
+    padding: 15px 15px;
+    border-radius: 100px;
+    color: #fff;
+    position: relative;
+    left: -5px;
+    top: 20px;
+}
+.container3 .add2 .box h2{
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+.container3 .add2 .box p{
+    position: relative;
+    font-size: 14px;
+    color: #a7a7a7;
+    left: 75px;
+    top: -25px;
+    width: 180px;
+    height: 20px;
+}
+.container3 .add2 .a1 i{
+    background-color:#afc6ff;
+}
+.container3 .add2 .a2 i {
+    background-color: #fff2b7;
+}
+.container3 .add2 .a3 i {
+    background-color: #ffc4ff;
+}
+.container3 .add2 .box h3{
+    position: relative;
+    left: 170px;
+    top: -28px;
+    font-size: 40px;
+}
+.container3 .add3{
+    position: absolute;
+    width: 500px;
+    opacity: 0;
+    animation: anim3 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    
+}
+.container3 .add3 .box{
+    position: absolute;
+    top: -320px;
+    left: 225px;
+    width: 780px;
+    background-color: #ffe6ff;
+    padding: 10px 20px;
+    border-radius: 24px;
+    
+}
+.container3 .add3 .box .dis{
+    position: relative;
+    left: 100px;
+    top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container3 .add3 .box i{
+    position: absolute;
+    font-size: 30px;
+    left: 30px;
+    top: 15px;
+    background-color: rgb(255, 174, 242);
+    padding: 18px 15px;
+    border-radius: 100px;
+    color: #fff;
+    
+}
+.container3 .add3 .box a{
+    text-decoration: none;
+    position: relative;
+    left: 550px;
+    top:-35px;
+    color: #ff8eff;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 10px 15px;
+    
+}
+.container3 .add3 .box a:hover{
+    background-color: #e4e4e4;
+}
+.container3 .add3 .box a:active {
+    background-color: #5a5a5a;
+}
+.container3 .add4{
+    position: absolute;
+    top: 420px;
+    left: 230px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 15px;
+    width: 780px;
+    height: 200px;
+    overflow-y: auto;
+    border-radius: 24px;
+    animation:  anim3 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    animation-delay: 1s;
+}
+.container3 .add4 .box table tr{
+    margin: 10px 15px;
+    
+    
+}
+.container3 .add4 .box table .prize{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+}
+.container3 .add4 .box table h2{
+    font-size: 25px;
+}
+.container3 .add4 .box table .dis a{
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+    padding: 10px 15px;
+    background-color: #fff;
+    color: #555555;
+    border-radius: 24px;
+}
+.container3 .add4 .box table .dis a:hover{
+    background-color: #e4e4e4;
+}
+.container3 .add4 .box table .dis a:active {
+    background-color: #969696;
+}
+
+.container3 .add4 .box table{
+    position: relative;
+    top: 18px;
+    left: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container3 .add4 .box table .dis{
+    position: relative;
+    left: 280px;
+    top: -30px;
+
+}
+.container3 .add4 >h2{
+    position: relative;
+    width: 300px;
+    left: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container3 .add4 .box table .img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 24px;
+    margin: 10px 15px;
+    position: relative;
+    top: -5px;
+}
+.container3 .add4 .box table img{
+    width: 50px;
+}
+
+@keyframes anim3{
+    0%{
+        transform: scale(0.3);
+        opacity: 0;
+
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
